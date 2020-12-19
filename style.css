@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.bg-custom{
+    background-image: url("images/bg.jpg");
+    background-repeat: no-repeat;
+    background-size:cover ;
+    
+}
+
+.line2{
+    margin: 30px auto;
+    width: 300px;
+    height: 2px;
+    background-color: #006394;
+}
+.links {
+    text-align: center;
+}
+.links .fa {
+    font-size: 20px;
+    color: white;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    background-color: #006394;
+    line-height: 40px;
+    margin: 10px auto;
+}
+.links li {
+    display: inline-block;
+
+}
+@media screen and (max-width: 600px) {
+    img.profile-img{
+        min-width: 200px;
+    }
+  }
